@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+
+</head>
+<body>`
+  <div class = centre>
+    <h1>BMI Calculator</h1>
+    <p>Enter your weight and height below to find your BMI status:</p>
+    <label for="weight" class="categorylabel">Weight (kg):</label>
+    <input type="number" id="weight" class="textboxsharedstyle">
+    <br>
+    <label for="height" class="categorylabel">Height (m):</label>
+    <input type="number" id="height" class="textboxsharedstyle" >
+    <br>
+    <button class ="button" onclick="calculateBMI()">Show my BMI</button>
+    <p id="result"></p>
+    <script src="bmicalc.js"></script>
+
+   </body>
+</html>
